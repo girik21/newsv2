@@ -9,10 +9,10 @@ console.log(employee);
          <div className={styles.main}>
              <h1>About us</h1>
 
-             <div className={styles.main}>
+             <div className={styles.aboutus}>
              <h3>{employee.name}</h3>
             <h6>{employee.position}</h6>
-            <img src={employee.image} alt="employee" />
+            <img src={employee.image} alt="aboutus" />
             <p>{employee.description}</p>
              </div>
          </div>
@@ -25,7 +25,7 @@ console.log(employee);
   
   export const getServerSideProps = async pageContext => {
     const apiResponse = await fetch(
-      'https://my-json-server.typicode.com/girik21/newsv2/db',
+      'https://my-json-server.typicode.com/girik21/newsv2/employeeOfTheMonth',
     );
     const employee = await apiResponse.json();
   
