@@ -3,6 +3,9 @@
     height: 50px;
     display: flex;
     justify-content: center;
+    font-size: x-large;
+    font-stretch: wider;
+    
   }
   .main div {
     margin: 25px;
@@ -11,3 +14,5 @@
   .main div:hover {
     color: rgb(168, 168, 168);
   } 
+
+  

@@ -1,10 +1,14 @@
 import styles from '../styles/aboutus.module.css'
 import { Toolbar } from '../components/toolbar';
+import { GiAsianLantern } from "react-icons/gi";
+import Link from "next/link";
 
 export const aboutus = ({ employee }) => {
 console.log(employee);    
   return (
          <div className='pagecontainer'>
+            
+           
              <Toolbar/> 
          <div className={styles.main}>
              <h1>About us</h1>
@@ -17,6 +21,7 @@ console.log(employee);
              </div>
          </div>
          </div>
+        
          
 )
   };

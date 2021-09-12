@@ -10,7 +10,9 @@ export default function Home() {
       <div className={styles.main}>
         <h1>News App</h1>
 
-        <h3>Your one stop shop for the latest news articles</h3>
+        <h2>Your favourite stop for all the latest trending news going all around the world! Click on the Feed option to get started.</h2>
+        <h3>Have a suggestion for us? </h3>
+           <h4>Please write us at   <u>newsnoreply@gmail.com</u></h4>
       </div>
     </div>
   )
